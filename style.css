@@ -1,0 +1,43 @@
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.034);
+}
+table,
+td,
+th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 10px 50px solid black;
+
+}
+
+.sem_header {
+    text-align: center;
+    font-weight: bold;
+    background-color: #3b8ad8;
+    color: white;
+}
+
+.table_header {
+    background-color: #E2DAD6;
+}
+
+.already_taken {
+    background-color: rgb(96, 198, 238);
+    color: rgb(68, 67, 67);
+}
+
+.currently_taken {
+    background-color: yellow;
+    color: rgb(68, 67, 67);
+}
+
+.not_yet {
+    background-color: white;
+    color: rgb(68, 67, 67);
+}
